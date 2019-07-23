@@ -1,0 +1,44 @@
+{
+  "name": "@lessondesk/material-icons",
+  "version": "1.0.0",
+  "description": "Material Icon SVGs as React Components",
+  "main": "dist/index.js",
+  "repository": "https://github.com/lessondesk/material-icons.git",
+  "author": "Full Facing",
+  "contributors": [
+    "Tiaan du Plessis (https://tiaan.dev)"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "pixo svg && babel src --out-dir dist",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "babel-loader": "^8.0.6",
+    "pixo": "^1.1.2"
+  },
+  "keywords": [
+    "svg",
+    "icons",
+    "material"
+  ],
+  "pixo": {
+    "outDir": "src",
+    "template": "styledSystem",
+    "index": true,
+    "iconComponent": true,
+    "recursive": true
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.0.16"
+  }
+}

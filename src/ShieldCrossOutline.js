@@ -1,0 +1,28 @@
+import React from 'react'
+import styled from 'styled-components'
+import { space, color } from 'styled-system'
+
+const Svg = styled('svg')({ flex: 'none' }, space, color)
+
+const ShieldCrossOutlineIcon = ({
+  size,
+  ...props
+}) => (
+  <Svg
+    {...props}
+    viewBox='0 0 24 24'
+    width={size}
+    height={size}
+    fill='currentcolor'
+  >
+    <path d='M21,11C21,16.5 17.2,21.7 12,23C6.8,21.7 3,16.5 3,11V5L12,1L21,5V11M12,21C15.8,20 19,15.5 19,11.2V6.3L12,3.2L5,6.3V11.2C5,15.5 8.3,20 12,21M16,9H13V6H11V9H8V11H11V19H13V11H16V9Z' />
+  </Svg>
+)
+
+ShieldCrossOutlineIcon.displayName = 'ShieldCrossOutlineIcon'
+
+ShieldCrossOutlineIcon.defaultProps = {
+  size: 24
+}
+
+export default ShieldCrossOutlineIcon

@@ -1,0 +1,28 @@
+import React from 'react'
+import styled from 'styled-components'
+import { space, color } from 'styled-system'
+
+const Svg = styled('svg')({ flex: 'none' }, space, color)
+
+const ChartTreeIcon = ({
+  size,
+  ...props
+}) => (
+  <Svg
+    {...props}
+    viewBox='0 0 24 24'
+    width={size}
+    height={size}
+    fill='currentcolor'
+  >
+    <path d='M14,6H22V22H14V6M2,4H22V2H2V4M2,8H12V6H2V8M9,22H12V10H9V22M2,22H7V10H2V22Z' />
+  </Svg>
+)
+
+ChartTreeIcon.displayName = 'ChartTreeIcon'
+
+ChartTreeIcon.defaultProps = {
+  size: 24
+}
+
+export default ChartTreeIcon
