@@ -37,8 +37,8 @@
     "recursive": true
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "styled-components": "^4.3.2",
-    "styled-system": "^5.0.16"
+    "react": "^16",
+    "styled-components": "^4",
+    "styled-system": "^5"
   }
 }

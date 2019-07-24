@@ -837,16 +837,16 @@ Object.defineProperty(exports, "AlphaF", {
     return _AlphaF["default"];
   }
 });
-Object.defineProperty(exports, "AlphaGBox", {
-  enumerable: true,
-  get: function get() {
-    return _AlphaGBox["default"];
-  }
-});
 Object.defineProperty(exports, "AlphaGBoxOutline", {
   enumerable: true,
   get: function get() {
     return _AlphaGBoxOutline["default"];
+  }
+});
+Object.defineProperty(exports, "AlphaGBox", {
+  enumerable: true,
+  get: function get() {
+    return _AlphaGBox["default"];
   }
 });
 Object.defineProperty(exports, "AlphaGCircleOutline", {
@@ -939,16 +939,16 @@ Object.defineProperty(exports, "AlphaJBox", {
     return _AlphaJBox["default"];
   }
 });
-Object.defineProperty(exports, "AlphaJCircle", {
-  enumerable: true,
-  get: function get() {
-    return _AlphaJCircle["default"];
-  }
-});
 Object.defineProperty(exports, "AlphaJCircleOutline", {
   enumerable: true,
   get: function get() {
     return _AlphaJCircleOutline["default"];
+  }
+});
+Object.defineProperty(exports, "AlphaJCircle", {
+  enumerable: true,
+  get: function get() {
+    return _AlphaJCircle["default"];
   }
 });
 Object.defineProperty(exports, "AlphaJ", {
@@ -2763,22 +2763,28 @@ Object.defineProperty(exports, "Bank", {
     return _Bank["default"];
   }
 });
+Object.defineProperty(exports, "BarcodeScan", {
+  enumerable: true,
+  get: function get() {
+    return _BarcodeScan["default"];
+  }
+});
 Object.defineProperty(exports, "Barcode", {
   enumerable: true,
   get: function get() {
     return _Barcode["default"];
   }
 });
-Object.defineProperty(exports, "Barley", {
-  enumerable: true,
-  get: function get() {
-    return _Barley["default"];
-  }
-});
 Object.defineProperty(exports, "BarleyOff", {
   enumerable: true,
   get: function get() {
     return _BarleyOff["default"];
+  }
+});
+Object.defineProperty(exports, "Barley", {
+  enumerable: true,
+  get: function get() {
+    return _Barley["default"];
   }
 });
 Object.defineProperty(exports, "Barn", {
@@ -2875,12 +2881,6 @@ Object.defineProperty(exports, "Battery20", {
   enumerable: true,
   get: function get() {
     return _Battery2["default"];
-  }
-});
-Object.defineProperty(exports, "BarcodeScan", {
-  enumerable: true,
-  get: function get() {
-    return _BarcodeScan["default"];
   }
 });
 Object.defineProperty(exports, "Battery30Bluetooth", {
@@ -3015,13 +3015,13 @@ Object.defineProperty(exports, "BatteryCharging30", {
     return _BatteryCharging4["default"];
   }
 });
-Object.defineProperty(exports, "BatteryCharging50", {
+Object.defineProperty(exports, "BatteryCharging40", {
   enumerable: true,
   get: function get() {
     return _BatteryCharging5["default"];
   }
 });
-Object.defineProperty(exports, "BatteryCharging40", {
+Object.defineProperty(exports, "BatteryCharging50", {
   enumerable: true,
   get: function get() {
     return _BatteryCharging6["default"];
@@ -3399,16 +3399,16 @@ Object.defineProperty(exports, "BlackMesa", {
     return _BlackMesa["default"];
   }
 });
-Object.defineProperty(exports, "BlenderSoftware", {
-  enumerable: true,
-  get: function get() {
-    return _BlenderSoftware["default"];
-  }
-});
 Object.defineProperty(exports, "Blackberry", {
   enumerable: true,
   get: function get() {
     return _Blackberry["default"];
+  }
+});
+Object.defineProperty(exports, "BlenderSoftware", {
+  enumerable: true,
+  get: function get() {
+    return _BlenderSoftware["default"];
   }
 });
 Object.defineProperty(exports, "Blender", {
@@ -8043,16 +8043,16 @@ Object.defineProperty(exports, "DiscAlert", {
     return _DiscAlert["default"];
   }
 });
-Object.defineProperty(exports, "Disc", {
-  enumerable: true,
-  get: function get() {
-    return _Disc["default"];
-  }
-});
 Object.defineProperty(exports, "DiscPlayer", {
   enumerable: true,
   get: function get() {
     return _DiscPlayer["default"];
+  }
+});
+Object.defineProperty(exports, "Disc", {
+  enumerable: true,
+  get: function get() {
+    return _Disc["default"];
   }
 });
 Object.defineProperty(exports, "Discord", {
@@ -8193,6 +8193,12 @@ Object.defineProperty(exports, "DogSide", {
     return _DogSide["default"];
   }
 });
+Object.defineProperty(exports, "Dog", {
+  enumerable: true,
+  get: function get() {
+    return _Dog["default"];
+  }
+});
 Object.defineProperty(exports, "Dolby", {
   enumerable: true,
   get: function get() {
@@ -8203,12 +8209,6 @@ Object.defineProperty(exports, "Dolly", {
   enumerable: true,
   get: function get() {
     return _Dolly["default"];
-  }
-});
-Object.defineProperty(exports, "Dog", {
-  enumerable: true,
-  get: function get() {
-    return _Dog["default"];
   }
 });
 Object.defineProperty(exports, "DomainOff", {
@@ -8235,16 +8235,16 @@ Object.defineProperty(exports, "DoorClosed", {
     return _DoorClosed["default"];
   }
 });
-Object.defineProperty(exports, "Door", {
-  enumerable: true,
-  get: function get() {
-    return _Door["default"];
-  }
-});
 Object.defineProperty(exports, "DoorOpen", {
   enumerable: true,
   get: function get() {
     return _DoorOpen["default"];
+  }
+});
+Object.defineProperty(exports, "Door", {
+  enumerable: true,
+  get: function get() {
+    return _Door["default"];
   }
 });
 Object.defineProperty(exports, "DoorbellVideo", {
@@ -8631,16 +8631,16 @@ Object.defineProperty(exports, "EmailOpen", {
     return _EmailOpen["default"];
   }
 });
-Object.defineProperty(exports, "EmailPlusOutline", {
-  enumerable: true,
-  get: function get() {
-    return _EmailPlusOutline["default"];
-  }
-});
 Object.defineProperty(exports, "EmailOutline", {
   enumerable: true,
   get: function get() {
     return _EmailOutline["default"];
+  }
+});
+Object.defineProperty(exports, "EmailPlusOutline", {
+  enumerable: true,
+  get: function get() {
+    return _EmailPlusOutline["default"];
   }
 });
 Object.defineProperty(exports, "EmailPlus", {
@@ -11073,16 +11073,16 @@ Object.defineProperty(exports, "FunctionVariant", {
     return _FunctionVariant["default"];
   }
 });
-Object.defineProperty(exports, "Function", {
-  enumerable: true,
-  get: function get() {
-    return _Function["default"];
-  }
-});
 Object.defineProperty(exports, "FuseBlade", {
   enumerable: true,
   get: function get() {
     return _FuseBlade["default"];
+  }
+});
+Object.defineProperty(exports, "Function", {
+  enumerable: true,
+  get: function get() {
+    return _Function["default"];
   }
 });
 Object.defineProperty(exports, "Fuse", {
@@ -11505,16 +11505,16 @@ Object.defineProperty(exports, "GithubBox", {
     return _GithubBox["default"];
   }
 });
-Object.defineProperty(exports, "GithubCircle", {
-  enumerable: true,
-  get: function get() {
-    return _GithubCircle["default"];
-  }
-});
 Object.defineProperty(exports, "GithubFace", {
   enumerable: true,
   get: function get() {
     return _GithubFace["default"];
+  }
+});
+Object.defineProperty(exports, "GithubCircle", {
+  enumerable: true,
+  get: function get() {
+    return _GithubCircle["default"];
   }
 });
 Object.defineProperty(exports, "Gitlab", {
@@ -11637,16 +11637,16 @@ Object.defineProperty(exports, "GoogleAllo", {
     return _GoogleAllo["default"];
   }
 });
-Object.defineProperty(exports, "GoogleAnalytics", {
-  enumerable: true,
-  get: function get() {
-    return _GoogleAnalytics["default"];
-  }
-});
 Object.defineProperty(exports, "GoogleAssistant", {
   enumerable: true,
   get: function get() {
     return _GoogleAssistant["default"];
+  }
+});
+Object.defineProperty(exports, "GoogleAnalytics", {
+  enumerable: true,
+  get: function get() {
+    return _GoogleAnalytics["default"];
   }
 });
 Object.defineProperty(exports, "GoogleCardboard", {
@@ -11769,16 +11769,16 @@ Object.defineProperty(exports, "GooglePages", {
     return _GooglePages["default"];
   }
 });
-Object.defineProperty(exports, "GooglePhotos", {
-  enumerable: true,
-  get: function get() {
-    return _GooglePhotos["default"];
-  }
-});
 Object.defineProperty(exports, "GooglePhysicalWeb", {
   enumerable: true,
   get: function get() {
     return _GooglePhysicalWeb["default"];
+  }
+});
+Object.defineProperty(exports, "GooglePhotos", {
+  enumerable: true,
+  get: function get() {
+    return _GooglePhotos["default"];
   }
 });
 Object.defineProperty(exports, "GooglePlay", {
@@ -11835,16 +11835,16 @@ Object.defineProperty(exports, "Gpu", {
     return _Gpu["default"];
   }
 });
-Object.defineProperty(exports, "Gradient", {
-  enumerable: true,
-  get: function get() {
-    return _Gradient["default"];
-  }
-});
 Object.defineProperty(exports, "Grain", {
   enumerable: true,
   get: function get() {
     return _Grain["default"];
+  }
+});
+Object.defineProperty(exports, "Gradient", {
+  enumerable: true,
+  get: function get() {
+    return _Gradient["default"];
   }
 });
 Object.defineProperty(exports, "Graphql", {
@@ -12165,16 +12165,16 @@ Object.defineProperty(exports, "HeartFlash", {
     return _HeartFlash["default"];
   }
 });
-Object.defineProperty(exports, "HeartHalfOutline", {
-  enumerable: true,
-  get: function get() {
-    return _HeartHalfOutline["default"];
-  }
-});
 Object.defineProperty(exports, "HeartHalfFull", {
   enumerable: true,
   get: function get() {
     return _HeartHalfFull["default"];
+  }
+});
+Object.defineProperty(exports, "HeartHalfOutline", {
+  enumerable: true,
+  get: function get() {
+    return _HeartHalfOutline["default"];
   }
 });
 Object.defineProperty(exports, "HeartHalf", {
@@ -12423,16 +12423,16 @@ Object.defineProperty(exports, "HomeAutomation", {
     return _HomeAutomation["default"];
   }
 });
-Object.defineProperty(exports, "HomeCircle", {
-  enumerable: true,
-  get: function get() {
-    return _HomeCircle["default"];
-  }
-});
 Object.defineProperty(exports, "HomeCityOutline", {
   enumerable: true,
   get: function get() {
     return _HomeCityOutline["default"];
+  }
+});
+Object.defineProperty(exports, "HomeCircle", {
+  enumerable: true,
+  get: function get() {
+    return _HomeCircle["default"];
   }
 });
 Object.defineProperty(exports, "HomeCity", {
@@ -12537,16 +12537,16 @@ Object.defineProperty(exports, "HomeMapMarker", {
     return _HomeMapMarker["default"];
   }
 });
-Object.defineProperty(exports, "HomeMinus", {
-  enumerable: true,
-  get: function get() {
-    return _HomeMinus["default"];
-  }
-});
 Object.defineProperty(exports, "HomeModern", {
   enumerable: true,
   get: function get() {
     return _HomeModern["default"];
+  }
+});
+Object.defineProperty(exports, "HomeMinus", {
+  enumerable: true,
+  get: function get() {
+    return _HomeMinus["default"];
   }
 });
 Object.defineProperty(exports, "HomeOutline", {
@@ -13197,16 +13197,16 @@ Object.defineProperty(exports, "KeyOutline", {
     return _KeyOutline["default"];
   }
 });
-Object.defineProperty(exports, "KeyPlus", {
-  enumerable: true,
-  get: function get() {
-    return _KeyPlus["default"];
-  }
-});
 Object.defineProperty(exports, "KeyRemove", {
   enumerable: true,
   get: function get() {
     return _KeyRemove["default"];
+  }
+});
+Object.defineProperty(exports, "KeyPlus", {
+  enumerable: true,
+  get: function get() {
+    return _KeyPlus["default"];
   }
 });
 Object.defineProperty(exports, "KeyVariant", {
@@ -13515,16 +13515,16 @@ Object.defineProperty(exports, "LaptopOff", {
     return _LaptopOff["default"];
   }
 });
-Object.defineProperty(exports, "LaptopWindows", {
-  enumerable: true,
-  get: function get() {
-    return _LaptopWindows["default"];
-  }
-});
 Object.defineProperty(exports, "Laptop", {
   enumerable: true,
   get: function get() {
     return _Laptop["default"];
+  }
+});
+Object.defineProperty(exports, "LaptopWindows", {
+  enumerable: true,
+  get: function get() {
+    return _LaptopWindows["default"];
   }
 });
 Object.defineProperty(exports, "Laravel", {
@@ -13731,16 +13731,16 @@ Object.defineProperty(exports, "LibraryVideo", {
     return _LibraryVideo["default"];
   }
 });
-Object.defineProperty(exports, "Library", {
-  enumerable: true,
-  get: function get() {
-    return _Library["default"];
-  }
-});
 Object.defineProperty(exports, "Lifebuoy", {
   enumerable: true,
   get: function get() {
     return _Lifebuoy["default"];
+  }
+});
+Object.defineProperty(exports, "Library", {
+  enumerable: true,
+  get: function get() {
+    return _Library["default"];
   }
 });
 Object.defineProperty(exports, "LightSwitch", {
@@ -14247,16 +14247,16 @@ Object.defineProperty(exports, "MapMarkerQuestion", {
     return _MapMarkerQuestion["default"];
   }
 });
-Object.defineProperty(exports, "MapMarkerRadius", {
-  enumerable: true,
-  get: function get() {
-    return _MapMarkerRadius["default"];
-  }
-});
 Object.defineProperty(exports, "MapMarkerRemoveVariant", {
   enumerable: true,
   get: function get() {
     return _MapMarkerRemoveVariant["default"];
+  }
+});
+Object.defineProperty(exports, "MapMarkerRadius", {
+  enumerable: true,
+  get: function get() {
+    return _MapMarkerRadius["default"];
   }
 });
 Object.defineProperty(exports, "MapMarkerRemove", {
@@ -14541,16 +14541,16 @@ Object.defineProperty(exports, "MessageImage", {
     return _MessageImage["default"];
   }
 });
-Object.defineProperty(exports, "MessagePlus", {
-  enumerable: true,
-  get: function get() {
-    return _MessagePlus["default"];
-  }
-});
 Object.defineProperty(exports, "MessageOutline", {
   enumerable: true,
   get: function get() {
     return _MessageOutline["default"];
+  }
+});
+Object.defineProperty(exports, "MessagePlus", {
+  enumerable: true,
+  get: function get() {
+    return _MessagePlus["default"];
   }
 });
 Object.defineProperty(exports, "MessageProcessing", {
@@ -14715,16 +14715,16 @@ Object.defineProperty(exports, "Midi", {
     return _Midi["default"];
   }
 });
-Object.defineProperty(exports, "Mine", {
-  enumerable: true,
-  get: function get() {
-    return _Mine["default"];
-  }
-});
 Object.defineProperty(exports, "Minecraft", {
   enumerable: true,
   get: function get() {
     return _Minecraft["default"];
+  }
+});
+Object.defineProperty(exports, "Mine", {
+  enumerable: true,
+  get: function get() {
+    return _Mine["default"];
   }
 });
 Object.defineProperty(exports, "MiniSd", {
@@ -14829,16 +14829,16 @@ Object.defineProperty(exports, "MonitorDashboard", {
     return _MonitorDashboard["default"];
   }
 });
-Object.defineProperty(exports, "MonitorLock", {
-  enumerable: true,
-  get: function get() {
-    return _MonitorLock["default"];
-  }
-});
 Object.defineProperty(exports, "MonitorMultiple", {
   enumerable: true,
   get: function get() {
     return _MonitorMultiple["default"];
+  }
+});
+Object.defineProperty(exports, "MonitorLock", {
+  enumerable: true,
+  get: function get() {
+    return _MonitorLock["default"];
   }
 });
 Object.defineProperty(exports, "MonitorOff", {
@@ -14931,16 +14931,16 @@ Object.defineProperty(exports, "MoveResize", {
     return _MoveResize["default"];
   }
 });
-Object.defineProperty(exports, "MovieOutline", {
-  enumerable: true,
-  get: function get() {
-    return _MovieOutline["default"];
-  }
-});
 Object.defineProperty(exports, "MovieRoll", {
   enumerable: true,
   get: function get() {
     return _MovieRoll["default"];
+  }
+});
+Object.defineProperty(exports, "MovieOutline", {
+  enumerable: true,
+  get: function get() {
+    return _MovieOutline["default"];
   }
 });
 Object.defineProperty(exports, "Movie", {
@@ -15369,6 +15369,12 @@ Object.defineProperty(exports, "NotebookMultiple", {
     return _NotebookMultiple["default"];
   }
 });
+Object.defineProperty(exports, "NotebookOutline", {
+  enumerable: true,
+  get: function get() {
+    return _NotebookOutline["default"];
+  }
+});
 Object.defineProperty(exports, "Notebook", {
   enumerable: true,
   get: function get() {
@@ -15387,28 +15393,22 @@ Object.defineProperty(exports, "NpmVariantOutline", {
     return _NpmVariantOutline["default"];
   }
 });
-Object.defineProperty(exports, "NotebookOutline", {
-  enumerable: true,
-  get: function get() {
-    return _NotebookOutline["default"];
-  }
-});
 Object.defineProperty(exports, "NpmVariant", {
   enumerable: true,
   get: function get() {
     return _NpmVariant["default"];
   }
 });
-Object.defineProperty(exports, "Nuke", {
-  enumerable: true,
-  get: function get() {
-    return _Nuke["default"];
-  }
-});
 Object.defineProperty(exports, "Npm", {
   enumerable: true,
   get: function get() {
     return _Npm["default"];
+  }
+});
+Object.defineProperty(exports, "Nuke", {
+  enumerable: true,
+  get: function get() {
+    return _Nuke["default"];
   }
 });
 Object.defineProperty(exports, "Null", {
@@ -15459,6 +15459,12 @@ Object.defineProperty(exports, "Numeric0", {
     return _Numeric["default"];
   }
 });
+Object.defineProperty(exports, "Numeric1BoxMultipleOutline", {
+  enumerable: true,
+  get: function get() {
+    return _Numeric1BoxMultipleOutline["default"];
+  }
+});
 Object.defineProperty(exports, "Numeric1BoxMultiple", {
   enumerable: true,
   get: function get() {
@@ -15469,6 +15475,12 @@ Object.defineProperty(exports, "Numeric1BoxOutline", {
   enumerable: true,
   get: function get() {
     return _Numeric1BoxOutline["default"];
+  }
+});
+Object.defineProperty(exports, "Numeric1Box", {
+  enumerable: true,
+  get: function get() {
+    return _Numeric1Box["default"];
   }
 });
 Object.defineProperty(exports, "Numeric1CircleOutline", {
@@ -15535,6 +15547,12 @@ Object.defineProperty(exports, "Numeric3BoxMultipleOutline", {
   enumerable: true,
   get: function get() {
     return _Numeric3BoxMultipleOutline["default"];
+  }
+});
+Object.defineProperty(exports, "Numeric3BoxMultiple", {
+  enumerable: true,
+  get: function get() {
+    return _Numeric3BoxMultiple["default"];
   }
 });
 Object.defineProperty(exports, "Numeric3BoxOutline", {
@@ -15693,16 +15711,16 @@ Object.defineProperty(exports, "Numeric6", {
     return _Numeric7["default"];
   }
 });
-Object.defineProperty(exports, "Numeric7BoxMultipleOutline", {
-  enumerable: true,
-  get: function get() {
-    return _Numeric7BoxMultipleOutline["default"];
-  }
-});
 Object.defineProperty(exports, "Numeric7BoxMultiple", {
   enumerable: true,
   get: function get() {
     return _Numeric7BoxMultiple["default"];
+  }
+});
+Object.defineProperty(exports, "Numeric7BoxMultipleOutline", {
+  enumerable: true,
+  get: function get() {
+    return _Numeric7BoxMultipleOutline["default"];
   }
 });
 Object.defineProperty(exports, "Numeric7BoxOutline", {
@@ -15861,28 +15879,22 @@ Object.defineProperty(exports, "Numeric", {
     return _Numeric11["default"];
   }
 });
-Object.defineProperty(exports, "Numeric1BoxMultipleOutline", {
-  enumerable: true,
-  get: function get() {
-    return _Numeric1BoxMultipleOutline["default"];
-  }
-});
 Object.defineProperty(exports, "Nut", {
   enumerable: true,
   get: function get() {
     return _Nut["default"];
   }
 });
-Object.defineProperty(exports, "Oar", {
-  enumerable: true,
-  get: function get() {
-    return _Oar["default"];
-  }
-});
 Object.defineProperty(exports, "Nutrition", {
   enumerable: true,
   get: function get() {
     return _Nutrition["default"];
+  }
+});
+Object.defineProperty(exports, "Oar", {
+  enumerable: true,
+  get: function get() {
+    return _Oar["default"];
   }
 });
 Object.defineProperty(exports, "Ocarina", {
@@ -15897,28 +15909,28 @@ Object.defineProperty(exports, "OctagonOutline", {
     return _OctagonOutline["default"];
   }
 });
-Object.defineProperty(exports, "OctagramOutline", {
-  enumerable: true,
-  get: function get() {
-    return _OctagramOutline["default"];
-  }
-});
 Object.defineProperty(exports, "Octagon", {
   enumerable: true,
   get: function get() {
     return _Octagon["default"];
   }
 });
-Object.defineProperty(exports, "Odnoklassniki", {
+Object.defineProperty(exports, "OctagramOutline", {
   enumerable: true,
   get: function get() {
-    return _Odnoklassniki["default"];
+    return _OctagramOutline["default"];
   }
 });
 Object.defineProperty(exports, "Octagram", {
   enumerable: true,
   get: function get() {
     return _Octagram["default"];
+  }
+});
+Object.defineProperty(exports, "Odnoklassniki", {
+  enumerable: true,
+  get: function get() {
+    return _Odnoklassniki["default"];
   }
 });
 Object.defineProperty(exports, "OfficeBuilding", {
@@ -15933,16 +15945,16 @@ Object.defineProperty(exports, "Office", {
     return _Office["default"];
   }
 });
-Object.defineProperty(exports, "OilTemperature", {
-  enumerable: true,
-  get: function get() {
-    return _OilTemperature["default"];
-  }
-});
 Object.defineProperty(exports, "OilLamp", {
   enumerable: true,
   get: function get() {
     return _OilLamp["default"];
+  }
+});
+Object.defineProperty(exports, "OilTemperature", {
+  enumerable: true,
+  get: function get() {
+    return _OilTemperature["default"];
   }
 });
 Object.defineProperty(exports, "Oil", {
@@ -16203,28 +16215,22 @@ Object.defineProperty(exports, "PanHorizontal", {
     return _PanHorizontal["default"];
   }
 });
-Object.defineProperty(exports, "Numeric1Box", {
-  enumerable: true,
-  get: function get() {
-    return _Numeric1Box["default"];
-  }
-});
 Object.defineProperty(exports, "PanLeft", {
   enumerable: true,
   get: function get() {
     return _PanLeft["default"];
   }
 });
-Object.defineProperty(exports, "PanTopLeft", {
-  enumerable: true,
-  get: function get() {
-    return _PanTopLeft["default"];
-  }
-});
 Object.defineProperty(exports, "PanRight", {
   enumerable: true,
   get: function get() {
     return _PanRight["default"];
+  }
+});
+Object.defineProperty(exports, "PanTopLeft", {
+  enumerable: true,
+  get: function get() {
+    return _PanTopLeft["default"];
   }
 });
 Object.defineProperty(exports, "PanTopRight", {
@@ -16371,10 +16377,10 @@ Object.defineProperty(exports, "Pause", {
     return _Pause["default"];
   }
 });
-Object.defineProperty(exports, "Numeric3BoxMultiple", {
+Object.defineProperty(exports, "PawOff", {
   enumerable: true,
   get: function get() {
-    return _Numeric3BoxMultiple["default"];
+    return _PawOff["default"];
   }
 });
 Object.defineProperty(exports, "Paw", {
@@ -16443,12 +16449,6 @@ Object.defineProperty(exports, "PencilBoxOutline", {
     return _PencilBoxOutline["default"];
   }
 });
-Object.defineProperty(exports, "PawOff", {
-  enumerable: true,
-  get: function get() {
-    return _PawOff["default"];
-  }
-});
 Object.defineProperty(exports, "PencilBox", {
   enumerable: true,
   get: function get() {
@@ -16503,16 +16503,16 @@ Object.defineProperty(exports, "PencilOff", {
     return _PencilOff["default"];
   }
 });
-Object.defineProperty(exports, "PencilOutline", {
-  enumerable: true,
-  get: function get() {
-    return _PencilOutline["default"];
-  }
-});
 Object.defineProperty(exports, "PencilPlusOutline", {
   enumerable: true,
   get: function get() {
     return _PencilPlusOutline["default"];
+  }
+});
+Object.defineProperty(exports, "PencilOutline", {
+  enumerable: true,
+  get: function get() {
+    return _PencilOutline["default"];
   }
 });
 Object.defineProperty(exports, "PencilPlus", {
@@ -16821,16 +16821,16 @@ Object.defineProperty(exports, "PinOffOutline", {
     return _PinOffOutline["default"];
   }
 });
-Object.defineProperty(exports, "PinOff", {
-  enumerable: true,
-  get: function get() {
-    return _PinOff["default"];
-  }
-});
 Object.defineProperty(exports, "PinOutline", {
   enumerable: true,
   get: function get() {
     return _PinOutline["default"];
+  }
+});
+Object.defineProperty(exports, "PinOff", {
+  enumerable: true,
+  get: function get() {
+    return _PinOff["default"];
   }
 });
 Object.defineProperty(exports, "Pin", {
@@ -17343,16 +17343,16 @@ Object.defineProperty(exports, "PresentationPlay", {
     return _PresentationPlay["default"];
   }
 });
-Object.defineProperty(exports, "Presentation", {
-  enumerable: true,
-  get: function get() {
-    return _Presentation["default"];
-  }
-});
 Object.defineProperty(exports, "Printer3DNozzleOutline", {
   enumerable: true,
   get: function get() {
     return _Printer3DNozzleOutline["default"];
+  }
+});
+Object.defineProperty(exports, "Presentation", {
+  enumerable: true,
+  get: function get() {
+    return _Presentation["default"];
   }
 });
 Object.defineProperty(exports, "Printer3DNozzle", {
@@ -18147,16 +18147,16 @@ Object.defineProperty(exports, "Rollupjs", {
     return _Rollupjs["default"];
   }
 });
-Object.defineProperty(exports, "RoomService", {
-  enumerable: true,
-  get: function get() {
-    return _RoomService["default"];
-  }
-});
 Object.defineProperty(exports, "RoomServiceOutline", {
   enumerable: true,
   get: function get() {
     return _RoomServiceOutline["default"];
+  }
+});
+Object.defineProperty(exports, "RoomService", {
+  enumerable: true,
+  get: function get() {
+    return _RoomService["default"];
   }
 });
 Object.defineProperty(exports, "Rotate3DVariant", {
@@ -18417,16 +18417,16 @@ Object.defineProperty(exports, "School", {
     return _School["default"];
   }
 });
-Object.defineProperty(exports, "ScreenRotationLock", {
-  enumerable: true,
-  get: function get() {
-    return _ScreenRotationLock["default"];
-  }
-});
 Object.defineProperty(exports, "ScissorsCutting", {
   enumerable: true,
   get: function get() {
     return _ScissorsCutting["default"];
+  }
+});
+Object.defineProperty(exports, "ScreenRotationLock", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenRotationLock["default"];
   }
 });
 Object.defineProperty(exports, "ScreenRotation", {
@@ -18687,16 +18687,16 @@ Object.defineProperty(exports, "SendCircleOutline", {
     return _SendCircleOutline["default"];
   }
 });
-Object.defineProperty(exports, "SendLock", {
-  enumerable: true,
-  get: function get() {
-    return _SendLock["default"];
-  }
-});
 Object.defineProperty(exports, "SendCircle", {
   enumerable: true,
   get: function get() {
     return _SendCircle["default"];
+  }
+});
+Object.defineProperty(exports, "SendLock", {
+  enumerable: true,
+  get: function get() {
+    return _SendLock["default"];
   }
 });
 Object.defineProperty(exports, "Send", {
@@ -19785,6 +19785,12 @@ Object.defineProperty(exports, "Spa", {
     return _Spa["default"];
   }
 });
+Object.defineProperty(exports, "SpaceInvaders", {
+  enumerable: true,
+  get: function get() {
+    return _SpaceInvaders["default"];
+  }
+});
 Object.defineProperty(exports, "Spade", {
   enumerable: true,
   get: function get() {
@@ -19849,12 +19855,6 @@ Object.defineProperty(exports, "SpotlightBeam", {
   enumerable: true,
   get: function get() {
     return _SpotlightBeam["default"];
-  }
-});
-Object.defineProperty(exports, "SpaceInvaders", {
-  enumerable: true,
-  get: function get() {
-    return _SpaceInvaders["default"];
   }
 });
 Object.defineProperty(exports, "Spotlight", {
@@ -20049,16 +20049,16 @@ Object.defineProperty(exports, "StarOff", {
     return _StarOff["default"];
   }
 });
-Object.defineProperty(exports, "StarThreePointsOutline", {
-  enumerable: true,
-  get: function get() {
-    return _StarThreePointsOutline["default"];
-  }
-});
 Object.defineProperty(exports, "StarOutline", {
   enumerable: true,
   get: function get() {
     return _StarOutline["default"];
+  }
+});
+Object.defineProperty(exports, "StarThreePointsOutline", {
+  enumerable: true,
+  get: function get() {
+    return _StarThreePointsOutline["default"];
   }
 });
 Object.defineProperty(exports, "StarThreePoints", {
@@ -20073,6 +20073,12 @@ Object.defineProperty(exports, "Star", {
     return _Star["default"];
   }
 });
+Object.defineProperty(exports, "SteamBox", {
+  enumerable: true,
+  get: function get() {
+    return _SteamBox["default"];
+  }
+});
 Object.defineProperty(exports, "Steam", {
   enumerable: true,
   get: function get() {
@@ -20083,12 +20089,6 @@ Object.defineProperty(exports, "SteeringOff", {
   enumerable: true,
   get: function get() {
     return _SteeringOff["default"];
-  }
-});
-Object.defineProperty(exports, "SteamBox", {
-  enumerable: true,
-  get: function get() {
-    return _SteamBox["default"];
   }
 });
 Object.defineProperty(exports, "Steering", {
@@ -20451,16 +20451,16 @@ Object.defineProperty(exports, "TableLarge", {
     return _TableLarge["default"];
   }
 });
-Object.defineProperty(exports, "TableMergeCells", {
-  enumerable: true,
-  get: function get() {
-    return _TableMergeCells["default"];
-  }
-});
 Object.defineProperty(exports, "TableOfContents", {
   enumerable: true,
   get: function get() {
     return _TableOfContents["default"];
+  }
+});
+Object.defineProperty(exports, "TableMergeCells", {
+  enumerable: true,
+  get: function get() {
+    return _TableMergeCells["default"];
   }
 });
 Object.defineProperty(exports, "TablePlus", {
@@ -20511,16 +20511,16 @@ Object.defineProperty(exports, "TableSearch", {
     return _TableSearch["default"];
   }
 });
-Object.defineProperty(exports, "TableSettings", {
-  enumerable: true,
-  get: function get() {
-    return _TableSettings["default"];
-  }
-});
 Object.defineProperty(exports, "TableTennis", {
   enumerable: true,
   get: function get() {
     return _TableTennis["default"];
+  }
+});
+Object.defineProperty(exports, "TableSettings", {
+  enumerable: true,
+  get: function get() {
+    return _TableSettings["default"];
   }
 });
 Object.defineProperty(exports, "Table", {
@@ -21129,16 +21129,16 @@ Object.defineProperty(exports, "Toolbox", {
     return _Toolbox["default"];
   }
 });
-Object.defineProperty(exports, "TooltipAccount", {
-  enumerable: true,
-  get: function get() {
-    return _TooltipAccount["default"];
-  }
-});
 Object.defineProperty(exports, "TooltipEdit", {
   enumerable: true,
   get: function get() {
     return _TooltipEdit["default"];
+  }
+});
+Object.defineProperty(exports, "TooltipAccount", {
+  enumerable: true,
+  get: function get() {
+    return _TooltipAccount["default"];
   }
 });
 Object.defineProperty(exports, "TooltipImageOutline", {
@@ -21237,16 +21237,16 @@ Object.defineProperty(exports, "Towing", {
     return _Towing["default"];
   }
 });
-Object.defineProperty(exports, "TrackLight", {
-  enumerable: true,
-  get: function get() {
-    return _TrackLight["default"];
-  }
-});
 Object.defineProperty(exports, "TrackpadLock", {
   enumerable: true,
   get: function get() {
     return _TrackpadLock["default"];
+  }
+});
+Object.defineProperty(exports, "TrackLight", {
+  enumerable: true,
+  get: function get() {
+    return _TrackLight["default"];
   }
 });
 Object.defineProperty(exports, "Trackpad", {
@@ -21345,28 +21345,28 @@ Object.defineProperty(exports, "TransitConnection", {
     return _TransitConnection["default"];
   }
 });
-Object.defineProperty(exports, "TransitTransfer", {
-  enumerable: true,
-  get: function get() {
-    return _TransitTransfer["default"];
-  }
-});
 Object.defineProperty(exports, "TransitionMasked", {
   enumerable: true,
   get: function get() {
     return _TransitionMasked["default"];
   }
 });
-Object.defineProperty(exports, "Transition", {
+Object.defineProperty(exports, "TransitTransfer", {
   enumerable: true,
   get: function get() {
-    return _Transition["default"];
+    return _TransitTransfer["default"];
   }
 });
 Object.defineProperty(exports, "TranslateOff", {
   enumerable: true,
   get: function get() {
     return _TranslateOff["default"];
+  }
+});
+Object.defineProperty(exports, "Transition", {
+  enumerable: true,
+  get: function get() {
+    return _Transition["default"];
   }
 });
 Object.defineProperty(exports, "Translate", {
@@ -21801,16 +21801,16 @@ Object.defineProperty(exports, "VanPassenger", {
     return _VanPassenger["default"];
   }
 });
-Object.defineProperty(exports, "Vanish", {
-  enumerable: true,
-  get: function get() {
-    return _Vanish["default"];
-  }
-});
 Object.defineProperty(exports, "VanUtility", {
   enumerable: true,
   get: function get() {
     return _VanUtility["default"];
+  }
+});
+Object.defineProperty(exports, "Vanish", {
+  enumerable: true,
+  get: function get() {
+    return _Vanish["default"];
   }
 });
 Object.defineProperty(exports, "Variable", {
@@ -21933,16 +21933,16 @@ Object.defineProperty(exports, "VectorSelection", {
     return _VectorSelection["default"];
   }
 });
-Object.defineProperty(exports, "VectorSquare", {
-  enumerable: true,
-  get: function get() {
-    return _VectorSquare["default"];
-  }
-});
 Object.defineProperty(exports, "VectorTriangle", {
   enumerable: true,
   get: function get() {
     return _VectorTriangle["default"];
+  }
+});
+Object.defineProperty(exports, "VectorSquare", {
+  enumerable: true,
+  get: function get() {
+    return _VectorSquare["default"];
   }
 });
 Object.defineProperty(exports, "VectorUnion", {
@@ -21969,16 +21969,16 @@ Object.defineProperty(exports, "VibrateOff", {
     return _VibrateOff["default"];
   }
 });
-Object.defineProperty(exports, "Vibrate", {
-  enumerable: true,
-  get: function get() {
-    return _Vibrate["default"];
-  }
-});
 Object.defineProperty(exports, "Video3DVariant", {
   enumerable: true,
   get: function get() {
     return _Video3DVariant["default"];
+  }
+});
+Object.defineProperty(exports, "Vibrate", {
+  enumerable: true,
+  get: function get() {
+    return _Vibrate["default"];
   }
 });
 Object.defineProperty(exports, "Video3D", {
@@ -22023,16 +22023,16 @@ Object.defineProperty(exports, "VideoInputHdmi", {
     return _VideoInputHdmi["default"];
   }
 });
-Object.defineProperty(exports, "VideoInputSvideo", {
-  enumerable: true,
-  get: function get() {
-    return _VideoInputSvideo["default"];
-  }
-});
 Object.defineProperty(exports, "VideoMinus", {
   enumerable: true,
   get: function get() {
     return _VideoMinus["default"];
+  }
+});
+Object.defineProperty(exports, "VideoInputSvideo", {
+  enumerable: true,
+  get: function get() {
+    return _VideoInputSvideo["default"];
   }
 });
 Object.defineProperty(exports, "VideoOffOutline", {
@@ -22131,16 +22131,16 @@ Object.defineProperty(exports, "ViewCompactOutline", {
     return _ViewCompactOutline["default"];
   }
 });
-Object.defineProperty(exports, "ViewCompact", {
-  enumerable: true,
-  get: function get() {
-    return _ViewCompact["default"];
-  }
-});
 Object.defineProperty(exports, "ViewDashboardOutline", {
   enumerable: true,
   get: function get() {
     return _ViewDashboardOutline["default"];
+  }
+});
+Object.defineProperty(exports, "ViewCompact", {
+  enumerable: true,
+  get: function get() {
+    return _ViewCompact["default"];
   }
 });
 Object.defineProperty(exports, "ViewDashboardVariant", {
@@ -22239,16 +22239,16 @@ Object.defineProperty(exports, "Violin", {
     return _Violin["default"];
   }
 });
-Object.defineProperty(exports, "VirtualReality", {
-  enumerable: true,
-  get: function get() {
-    return _VirtualReality["default"];
-  }
-});
 Object.defineProperty(exports, "VisualStudioCode", {
   enumerable: true,
   get: function get() {
     return _VisualStudioCode["default"];
+  }
+});
+Object.defineProperty(exports, "VirtualReality", {
+  enumerable: true,
+  get: function get() {
+    return _VirtualReality["default"];
   }
 });
 Object.defineProperty(exports, "VisualStudio", {
@@ -22467,16 +22467,16 @@ Object.defineProperty(exports, "WatchExportVariant", {
     return _WatchExportVariant["default"];
   }
 });
-Object.defineProperty(exports, "WatchExport", {
-  enumerable: true,
-  get: function get() {
-    return _WatchExport["default"];
-  }
-});
 Object.defineProperty(exports, "WatchImportVariant", {
   enumerable: true,
   get: function get() {
     return _WatchImportVariant["default"];
+  }
+});
+Object.defineProperty(exports, "WatchExport", {
+  enumerable: true,
+  get: function get() {
+    return _WatchExport["default"];
   }
 });
 Object.defineProperty(exports, "WatchImport", {
@@ -22827,16 +22827,16 @@ Object.defineProperty(exports, "WhiteBalanceIridescent", {
     return _WhiteBalanceIridescent["default"];
   }
 });
-Object.defineProperty(exports, "WhiteBalanceSunny", {
-  enumerable: true,
-  get: function get() {
-    return _WhiteBalanceSunny["default"];
-  }
-});
 Object.defineProperty(exports, "Widgets", {
   enumerable: true,
   get: function get() {
     return _Widgets["default"];
+  }
+});
+Object.defineProperty(exports, "WhiteBalanceSunny", {
+  enumerable: true,
+  get: function get() {
+    return _WhiteBalanceSunny["default"];
   }
 });
 Object.defineProperty(exports, "WifiOff", {
@@ -22845,16 +22845,16 @@ Object.defineProperty(exports, "WifiOff", {
     return _WifiOff["default"];
   }
 });
-Object.defineProperty(exports, "WifiStrength1Alert", {
-  enumerable: true,
-  get: function get() {
-    return _WifiStrength1Alert["default"];
-  }
-});
 Object.defineProperty(exports, "WifiStar", {
   enumerable: true,
   get: function get() {
     return _WifiStar["default"];
+  }
+});
+Object.defineProperty(exports, "WifiStrength1Alert", {
+  enumerable: true,
+  get: function get() {
+    return _WifiStrength1Alert["default"];
   }
 });
 Object.defineProperty(exports, "WifiStrength1Lock", {
@@ -23652,9 +23652,9 @@ var _AlphaFCircle = _interopRequireDefault(require("./AlphaFCircle"));
 
 var _AlphaF = _interopRequireDefault(require("./AlphaF"));
 
-var _AlphaGBox = _interopRequireDefault(require("./AlphaGBox"));
-
 var _AlphaGBoxOutline = _interopRequireDefault(require("./AlphaGBoxOutline"));
+
+var _AlphaGBox = _interopRequireDefault(require("./AlphaGBox"));
 
 var _AlphaGCircleOutline = _interopRequireDefault(require("./AlphaGCircleOutline"));
 
@@ -23686,9 +23686,9 @@ var _AlphaJBoxOutline = _interopRequireDefault(require("./AlphaJBoxOutline"));
 
 var _AlphaJBox = _interopRequireDefault(require("./AlphaJBox"));
 
-var _AlphaJCircle = _interopRequireDefault(require("./AlphaJCircle"));
-
 var _AlphaJCircleOutline = _interopRequireDefault(require("./AlphaJCircleOutline"));
+
+var _AlphaJCircle = _interopRequireDefault(require("./AlphaJCircle"));
 
 var _AlphaJ = _interopRequireDefault(require("./AlphaJ"));
 
@@ -24294,11 +24294,13 @@ var _BankTransfer = _interopRequireDefault(require("./BankTransfer"));
 
 var _Bank = _interopRequireDefault(require("./Bank"));
 
+var _BarcodeScan = _interopRequireDefault(require("./BarcodeScan"));
+
 var _Barcode = _interopRequireDefault(require("./Barcode"));
 
-var _Barley = _interopRequireDefault(require("./Barley"));
-
 var _BarleyOff = _interopRequireDefault(require("./BarleyOff"));
+
+var _Barley = _interopRequireDefault(require("./Barley"));
 
 var _Barn = _interopRequireDefault(require("./Barn"));
 
@@ -24331,8 +24333,6 @@ var _Battery = _interopRequireDefault(require("./Battery10"));
 var _Battery20Bluetooth = _interopRequireDefault(require("./Battery20Bluetooth"));
 
 var _Battery2 = _interopRequireDefault(require("./Battery20"));
-
-var _BarcodeScan = _interopRequireDefault(require("./BarcodeScan"));
 
 var _Battery30Bluetooth = _interopRequireDefault(require("./Battery30Bluetooth"));
 
@@ -24378,9 +24378,9 @@ var _BatteryCharging3 = _interopRequireDefault(require("./BatteryCharging20"));
 
 var _BatteryCharging4 = _interopRequireDefault(require("./BatteryCharging30"));
 
-var _BatteryCharging5 = _interopRequireDefault(require("./BatteryCharging50"));
+var _BatteryCharging5 = _interopRequireDefault(require("./BatteryCharging40"));
 
-var _BatteryCharging6 = _interopRequireDefault(require("./BatteryCharging40"));
+var _BatteryCharging6 = _interopRequireDefault(require("./BatteryCharging50"));
 
 var _BatteryCharging7 = _interopRequireDefault(require("./BatteryCharging60"));
 
@@ -24506,9 +24506,9 @@ var _Bitcoin = _interopRequireDefault(require("./Bitcoin"));
 
 var _BlackMesa = _interopRequireDefault(require("./BlackMesa"));
 
-var _BlenderSoftware = _interopRequireDefault(require("./BlenderSoftware"));
-
 var _Blackberry = _interopRequireDefault(require("./Blackberry"));
+
+var _BlenderSoftware = _interopRequireDefault(require("./BlenderSoftware"));
 
 var _Blender = _interopRequireDefault(require("./Blender"));
 
@@ -26054,9 +26054,9 @@ var _Directions = _interopRequireDefault(require("./Directions"));
 
 var _DiscAlert = _interopRequireDefault(require("./DiscAlert"));
 
-var _Disc = _interopRequireDefault(require("./Disc"));
-
 var _DiscPlayer = _interopRequireDefault(require("./DiscPlayer"));
+
+var _Disc = _interopRequireDefault(require("./Disc"));
 
 var _Discord = _interopRequireDefault(require("./Discord"));
 
@@ -26104,11 +26104,11 @@ var _DogService = _interopRequireDefault(require("./DogService"));
 
 var _DogSide = _interopRequireDefault(require("./DogSide"));
 
+var _Dog = _interopRequireDefault(require("./Dog"));
+
 var _Dolby = _interopRequireDefault(require("./Dolby"));
 
 var _Dolly = _interopRequireDefault(require("./Dolly"));
-
-var _Dog = _interopRequireDefault(require("./Dog"));
 
 var _DomainOff = _interopRequireDefault(require("./DomainOff"));
 
@@ -26118,9 +26118,9 @@ var _Donkey = _interopRequireDefault(require("./Donkey"));
 
 var _DoorClosed = _interopRequireDefault(require("./DoorClosed"));
 
-var _Door = _interopRequireDefault(require("./Door"));
-
 var _DoorOpen = _interopRequireDefault(require("./DoorOpen"));
+
+var _Door = _interopRequireDefault(require("./Door"));
 
 var _DoorbellVideo = _interopRequireDefault(require("./DoorbellVideo"));
 
@@ -26250,9 +26250,9 @@ var _EmailOpenOutline = _interopRequireDefault(require("./EmailOpenOutline"));
 
 var _EmailOpen = _interopRequireDefault(require("./EmailOpen"));
 
-var _EmailPlusOutline = _interopRequireDefault(require("./EmailPlusOutline"));
-
 var _EmailOutline = _interopRequireDefault(require("./EmailOutline"));
+
+var _EmailPlusOutline = _interopRequireDefault(require("./EmailPlusOutline"));
 
 var _EmailPlus = _interopRequireDefault(require("./EmailPlus"));
 
@@ -27064,9 +27064,9 @@ var _Fullscreen = _interopRequireDefault(require("./Fullscreen"));
 
 var _FunctionVariant = _interopRequireDefault(require("./FunctionVariant"));
 
-var _Function = _interopRequireDefault(require("./Function"));
-
 var _FuseBlade = _interopRequireDefault(require("./FuseBlade"));
+
+var _Function = _interopRequireDefault(require("./Function"));
 
 var _Fuse = _interopRequireDefault(require("./Fuse"));
 
@@ -27208,9 +27208,9 @@ var _Git = _interopRequireDefault(require("./Git"));
 
 var _GithubBox = _interopRequireDefault(require("./GithubBox"));
 
-var _GithubCircle = _interopRequireDefault(require("./GithubCircle"));
-
 var _GithubFace = _interopRequireDefault(require("./GithubFace"));
+
+var _GithubCircle = _interopRequireDefault(require("./GithubCircle"));
 
 var _Gitlab = _interopRequireDefault(require("./Gitlab"));
 
@@ -27252,9 +27252,9 @@ var _GoogleAdwords = _interopRequireDefault(require("./GoogleAdwords"));
 
 var _GoogleAllo = _interopRequireDefault(require("./GoogleAllo"));
 
-var _GoogleAnalytics = _interopRequireDefault(require("./GoogleAnalytics"));
-
 var _GoogleAssistant = _interopRequireDefault(require("./GoogleAssistant"));
+
+var _GoogleAnalytics = _interopRequireDefault(require("./GoogleAnalytics"));
 
 var _GoogleCardboard = _interopRequireDefault(require("./GoogleCardboard"));
 
@@ -27296,9 +27296,9 @@ var _GoogleNearby = _interopRequireDefault(require("./GoogleNearby"));
 
 var _GooglePages = _interopRequireDefault(require("./GooglePages"));
 
-var _GooglePhotos = _interopRequireDefault(require("./GooglePhotos"));
-
 var _GooglePhysicalWeb = _interopRequireDefault(require("./GooglePhysicalWeb"));
+
+var _GooglePhotos = _interopRequireDefault(require("./GooglePhotos"));
 
 var _GooglePlay = _interopRequireDefault(require("./GooglePlay"));
 
@@ -27318,9 +27318,9 @@ var _Google = _interopRequireDefault(require("./Google"));
 
 var _Gpu = _interopRequireDefault(require("./Gpu"));
 
-var _Gradient = _interopRequireDefault(require("./Gradient"));
-
 var _Grain = _interopRequireDefault(require("./Grain"));
+
+var _Gradient = _interopRequireDefault(require("./Gradient"));
 
 var _Graphql = _interopRequireDefault(require("./Graphql"));
 
@@ -27428,9 +27428,9 @@ var _HeartCircle = _interopRequireDefault(require("./HeartCircle"));
 
 var _HeartFlash = _interopRequireDefault(require("./HeartFlash"));
 
-var _HeartHalfOutline = _interopRequireDefault(require("./HeartHalfOutline"));
-
 var _HeartHalfFull = _interopRequireDefault(require("./HeartHalfFull"));
+
+var _HeartHalfOutline = _interopRequireDefault(require("./HeartHalfOutline"));
 
 var _HeartHalf = _interopRequireDefault(require("./HeartHalf"));
 
@@ -27514,9 +27514,9 @@ var _HomeAssistant = _interopRequireDefault(require("./HomeAssistant"));
 
 var _HomeAutomation = _interopRequireDefault(require("./HomeAutomation"));
 
-var _HomeCircle = _interopRequireDefault(require("./HomeCircle"));
-
 var _HomeCityOutline = _interopRequireDefault(require("./HomeCityOutline"));
+
+var _HomeCircle = _interopRequireDefault(require("./HomeCircle"));
 
 var _HomeCity = _interopRequireDefault(require("./HomeCity"));
 
@@ -27552,9 +27552,9 @@ var _HomeLock = _interopRequireDefault(require("./HomeLock"));
 
 var _HomeMapMarker = _interopRequireDefault(require("./HomeMapMarker"));
 
-var _HomeMinus = _interopRequireDefault(require("./HomeMinus"));
-
 var _HomeModern = _interopRequireDefault(require("./HomeModern"));
+
+var _HomeMinus = _interopRequireDefault(require("./HomeMinus"));
 
 var _HomeOutline = _interopRequireDefault(require("./HomeOutline"));
 
@@ -27772,9 +27772,9 @@ var _KeyMinus = _interopRequireDefault(require("./KeyMinus"));
 
 var _KeyOutline = _interopRequireDefault(require("./KeyOutline"));
 
-var _KeyPlus = _interopRequireDefault(require("./KeyPlus"));
-
 var _KeyRemove = _interopRequireDefault(require("./KeyRemove"));
+
+var _KeyPlus = _interopRequireDefault(require("./KeyPlus"));
 
 var _KeyVariant = _interopRequireDefault(require("./KeyVariant"));
 
@@ -27878,9 +27878,9 @@ var _LaptopMac = _interopRequireDefault(require("./LaptopMac"));
 
 var _LaptopOff = _interopRequireDefault(require("./LaptopOff"));
 
-var _LaptopWindows = _interopRequireDefault(require("./LaptopWindows"));
-
 var _Laptop = _interopRequireDefault(require("./Laptop"));
+
+var _LaptopWindows = _interopRequireDefault(require("./LaptopWindows"));
 
 var _Laravel = _interopRequireDefault(require("./Laravel"));
 
@@ -27950,9 +27950,9 @@ var _LibraryShelves = _interopRequireDefault(require("./LibraryShelves"));
 
 var _LibraryVideo = _interopRequireDefault(require("./LibraryVideo"));
 
-var _Library = _interopRequireDefault(require("./Library"));
-
 var _Lifebuoy = _interopRequireDefault(require("./Lifebuoy"));
+
+var _Library = _interopRequireDefault(require("./Library"));
 
 var _LightSwitch = _interopRequireDefault(require("./LightSwitch"));
 
@@ -28122,9 +28122,9 @@ var _MapMarkerQuestionOutline = _interopRequireDefault(require("./MapMarkerQuest
 
 var _MapMarkerQuestion = _interopRequireDefault(require("./MapMarkerQuestion"));
 
-var _MapMarkerRadius = _interopRequireDefault(require("./MapMarkerRadius"));
-
 var _MapMarkerRemoveVariant = _interopRequireDefault(require("./MapMarkerRemoveVariant"));
+
+var _MapMarkerRadius = _interopRequireDefault(require("./MapMarkerRadius"));
 
 var _MapMarkerRemove = _interopRequireDefault(require("./MapMarkerRemove"));
 
@@ -28220,9 +28220,9 @@ var _MessageDraw = _interopRequireDefault(require("./MessageDraw"));
 
 var _MessageImage = _interopRequireDefault(require("./MessageImage"));
 
-var _MessagePlus = _interopRequireDefault(require("./MessagePlus"));
-
 var _MessageOutline = _interopRequireDefault(require("./MessageOutline"));
+
+var _MessagePlus = _interopRequireDefault(require("./MessagePlus"));
 
 var _MessageProcessing = _interopRequireDefault(require("./MessageProcessing"));
 
@@ -28278,9 +28278,9 @@ var _MidiPort = _interopRequireDefault(require("./MidiPort"));
 
 var _Midi = _interopRequireDefault(require("./Midi"));
 
-var _Mine = _interopRequireDefault(require("./Mine"));
-
 var _Minecraft = _interopRequireDefault(require("./Minecraft"));
+
+var _Mine = _interopRequireDefault(require("./Mine"));
 
 var _MiniSd = _interopRequireDefault(require("./MiniSd"));
 
@@ -28316,9 +28316,9 @@ var _MonitorCellphone = _interopRequireDefault(require("./MonitorCellphone"));
 
 var _MonitorDashboard = _interopRequireDefault(require("./MonitorDashboard"));
 
-var _MonitorLock = _interopRequireDefault(require("./MonitorLock"));
-
 var _MonitorMultiple = _interopRequireDefault(require("./MonitorMultiple"));
+
+var _MonitorLock = _interopRequireDefault(require("./MonitorLock"));
 
 var _MonitorOff = _interopRequireDefault(require("./MonitorOff"));
 
@@ -28350,9 +28350,9 @@ var _MoveResizeVariant = _interopRequireDefault(require("./MoveResizeVariant"));
 
 var _MoveResize = _interopRequireDefault(require("./MoveResize"));
 
-var _MovieOutline = _interopRequireDefault(require("./MovieOutline"));
-
 var _MovieRoll = _interopRequireDefault(require("./MovieRoll"));
+
+var _MovieOutline = _interopRequireDefault(require("./MovieOutline"));
 
 var _Movie = _interopRequireDefault(require("./Movie"));
 
@@ -28496,19 +28496,19 @@ var _Note = _interopRequireDefault(require("./Note"));
 
 var _NotebookMultiple = _interopRequireDefault(require("./NotebookMultiple"));
 
+var _NotebookOutline = _interopRequireDefault(require("./NotebookOutline"));
+
 var _Notebook = _interopRequireDefault(require("./Notebook"));
 
 var _NotificationClearAll = _interopRequireDefault(require("./NotificationClearAll"));
 
 var _NpmVariantOutline = _interopRequireDefault(require("./NpmVariantOutline"));
 
-var _NotebookOutline = _interopRequireDefault(require("./NotebookOutline"));
-
 var _NpmVariant = _interopRequireDefault(require("./NpmVariant"));
 
-var _Nuke = _interopRequireDefault(require("./Nuke"));
-
 var _Npm = _interopRequireDefault(require("./Npm"));
+
+var _Nuke = _interopRequireDefault(require("./Nuke"));
 
 var _Null = _interopRequireDefault(require("./Null"));
 
@@ -28526,9 +28526,13 @@ var _Numeric0Circle = _interopRequireDefault(require("./Numeric0Circle"));
 
 var _Numeric = _interopRequireDefault(require("./Numeric0"));
 
+var _Numeric1BoxMultipleOutline = _interopRequireDefault(require("./Numeric1BoxMultipleOutline"));
+
 var _Numeric1BoxMultiple = _interopRequireDefault(require("./Numeric1BoxMultiple"));
 
 var _Numeric1BoxOutline = _interopRequireDefault(require("./Numeric1BoxOutline"));
+
+var _Numeric1Box = _interopRequireDefault(require("./Numeric1Box"));
 
 var _Numeric1CircleOutline = _interopRequireDefault(require("./Numeric1CircleOutline"));
 
@@ -28551,6 +28555,8 @@ var _Numeric2Circle = _interopRequireDefault(require("./Numeric2Circle"));
 var _Numeric3 = _interopRequireDefault(require("./Numeric2"));
 
 var _Numeric3BoxMultipleOutline = _interopRequireDefault(require("./Numeric3BoxMultipleOutline"));
+
+var _Numeric3BoxMultiple = _interopRequireDefault(require("./Numeric3BoxMultiple"));
 
 var _Numeric3BoxOutline = _interopRequireDefault(require("./Numeric3BoxOutline"));
 
@@ -28604,9 +28610,9 @@ var _Numeric6Circle = _interopRequireDefault(require("./Numeric6Circle"));
 
 var _Numeric7 = _interopRequireDefault(require("./Numeric6"));
 
-var _Numeric7BoxMultipleOutline = _interopRequireDefault(require("./Numeric7BoxMultipleOutline"));
-
 var _Numeric7BoxMultiple = _interopRequireDefault(require("./Numeric7BoxMultiple"));
+
+var _Numeric7BoxMultipleOutline = _interopRequireDefault(require("./Numeric7BoxMultipleOutline"));
 
 var _Numeric7BoxOutline = _interopRequireDefault(require("./Numeric7BoxOutline"));
 
@@ -28660,33 +28666,31 @@ var _Numeric10 = _interopRequireDefault(require("./Numeric9"));
 
 var _Numeric11 = _interopRequireDefault(require("./Numeric"));
 
-var _Numeric1BoxMultipleOutline = _interopRequireDefault(require("./Numeric1BoxMultipleOutline"));
-
 var _Nut = _interopRequireDefault(require("./Nut"));
 
-var _Oar = _interopRequireDefault(require("./Oar"));
-
 var _Nutrition = _interopRequireDefault(require("./Nutrition"));
+
+var _Oar = _interopRequireDefault(require("./Oar"));
 
 var _Ocarina = _interopRequireDefault(require("./Ocarina"));
 
 var _OctagonOutline = _interopRequireDefault(require("./OctagonOutline"));
 
-var _OctagramOutline = _interopRequireDefault(require("./OctagramOutline"));
-
 var _Octagon = _interopRequireDefault(require("./Octagon"));
 
-var _Odnoklassniki = _interopRequireDefault(require("./Odnoklassniki"));
+var _OctagramOutline = _interopRequireDefault(require("./OctagramOutline"));
 
 var _Octagram = _interopRequireDefault(require("./Octagram"));
+
+var _Odnoklassniki = _interopRequireDefault(require("./Odnoklassniki"));
 
 var _OfficeBuilding = _interopRequireDefault(require("./OfficeBuilding"));
 
 var _Office = _interopRequireDefault(require("./Office"));
 
-var _OilTemperature = _interopRequireDefault(require("./OilTemperature"));
-
 var _OilLamp = _interopRequireDefault(require("./OilLamp"));
+
+var _OilTemperature = _interopRequireDefault(require("./OilTemperature"));
 
 var _Oil = _interopRequireDefault(require("./Oil"));
 
@@ -28774,13 +28778,11 @@ var _PanDown = _interopRequireDefault(require("./PanDown"));
 
 var _PanHorizontal = _interopRequireDefault(require("./PanHorizontal"));
 
-var _Numeric1Box = _interopRequireDefault(require("./Numeric1Box"));
-
 var _PanLeft = _interopRequireDefault(require("./PanLeft"));
 
-var _PanTopLeft = _interopRequireDefault(require("./PanTopLeft"));
-
 var _PanRight = _interopRequireDefault(require("./PanRight"));
+
+var _PanTopLeft = _interopRequireDefault(require("./PanTopLeft"));
 
 var _PanTopRight = _interopRequireDefault(require("./PanTopRight"));
 
@@ -28830,7 +28832,7 @@ var _PauseOctagon = _interopRequireDefault(require("./PauseOctagon"));
 
 var _Pause = _interopRequireDefault(require("./Pause"));
 
-var _Numeric3BoxMultiple = _interopRequireDefault(require("./Numeric3BoxMultiple"));
+var _PawOff = _interopRequireDefault(require("./PawOff"));
 
 var _Paw = _interopRequireDefault(require("./Paw"));
 
@@ -28854,8 +28856,6 @@ var _Pen = _interopRequireDefault(require("./Pen"));
 
 var _PencilBoxOutline = _interopRequireDefault(require("./PencilBoxOutline"));
 
-var _PawOff = _interopRequireDefault(require("./PawOff"));
-
 var _PencilBox = _interopRequireDefault(require("./PencilBox"));
 
 var _PencilCircleOutline = _interopRequireDefault(require("./PencilCircleOutline"));
@@ -28874,9 +28874,9 @@ var _PencilOffOutline = _interopRequireDefault(require("./PencilOffOutline"));
 
 var _PencilOff = _interopRequireDefault(require("./PencilOff"));
 
-var _PencilOutline = _interopRequireDefault(require("./PencilOutline"));
-
 var _PencilPlusOutline = _interopRequireDefault(require("./PencilPlusOutline"));
+
+var _PencilOutline = _interopRequireDefault(require("./PencilOutline"));
 
 var _PencilPlus = _interopRequireDefault(require("./PencilPlus"));
 
@@ -28980,9 +28980,9 @@ var _Pillar = _interopRequireDefault(require("./Pillar"));
 
 var _PinOffOutline = _interopRequireDefault(require("./PinOffOutline"));
 
-var _PinOff = _interopRequireDefault(require("./PinOff"));
-
 var _PinOutline = _interopRequireDefault(require("./PinOutline"));
+
+var _PinOff = _interopRequireDefault(require("./PinOff"));
 
 var _Pin = _interopRequireDefault(require("./Pin"));
 
@@ -29154,9 +29154,9 @@ var _Prescription = _interopRequireDefault(require("./Prescription"));
 
 var _PresentationPlay = _interopRequireDefault(require("./PresentationPlay"));
 
-var _Presentation = _interopRequireDefault(require("./Presentation"));
-
 var _Printer3DNozzleOutline = _interopRequireDefault(require("./Printer3DNozzleOutline"));
+
+var _Presentation = _interopRequireDefault(require("./Presentation"));
 
 var _Printer3DNozzle = _interopRequireDefault(require("./Printer3DNozzle"));
 
@@ -29422,9 +29422,9 @@ var _Rollerblade = _interopRequireDefault(require("./Rollerblade"));
 
 var _Rollupjs = _interopRequireDefault(require("./Rollupjs"));
 
-var _RoomService = _interopRequireDefault(require("./RoomService"));
-
 var _RoomServiceOutline = _interopRequireDefault(require("./RoomServiceOutline"));
+
+var _RoomService = _interopRequireDefault(require("./RoomService"));
 
 var _Rotate3DVariant = _interopRequireDefault(require("./Rotate3DVariant"));
 
@@ -29512,9 +29512,9 @@ var _ScatterPlot = _interopRequireDefault(require("./ScatterPlot"));
 
 var _School = _interopRequireDefault(require("./School"));
 
-var _ScreenRotationLock = _interopRequireDefault(require("./ScreenRotationLock"));
-
 var _ScissorsCutting = _interopRequireDefault(require("./ScissorsCutting"));
+
+var _ScreenRotationLock = _interopRequireDefault(require("./ScreenRotationLock"));
 
 var _ScreenRotation = _interopRequireDefault(require("./ScreenRotation"));
 
@@ -29602,9 +29602,9 @@ var _Selection = _interopRequireDefault(require("./Selection"));
 
 var _SendCircleOutline = _interopRequireDefault(require("./SendCircleOutline"));
 
-var _SendLock = _interopRequireDefault(require("./SendLock"));
-
 var _SendCircle = _interopRequireDefault(require("./SendCircle"));
+
+var _SendLock = _interopRequireDefault(require("./SendLock"));
 
 var _Send = _interopRequireDefault(require("./Send"));
 
@@ -29968,6 +29968,8 @@ var _SpaOutline = _interopRequireDefault(require("./SpaOutline"));
 
 var _Spa = _interopRequireDefault(require("./Spa"));
 
+var _SpaceInvaders = _interopRequireDefault(require("./SpaceInvaders"));
+
 var _Spade = _interopRequireDefault(require("./Spade"));
 
 var _SpeakerBluetooth = _interopRequireDefault(require("./SpeakerBluetooth"));
@@ -29989,8 +29991,6 @@ var _SpiderWeb = _interopRequireDefault(require("./SpiderWeb"));
 var _Spotify = _interopRequireDefault(require("./Spotify"));
 
 var _SpotlightBeam = _interopRequireDefault(require("./SpotlightBeam"));
-
-var _SpaceInvaders = _interopRequireDefault(require("./SpaceInvaders"));
 
 var _Spotlight = _interopRequireDefault(require("./Spotlight"));
 
@@ -30056,19 +30056,19 @@ var _StarHalf = _interopRequireDefault(require("./StarHalf"));
 
 var _StarOff = _interopRequireDefault(require("./StarOff"));
 
-var _StarThreePointsOutline = _interopRequireDefault(require("./StarThreePointsOutline"));
-
 var _StarOutline = _interopRequireDefault(require("./StarOutline"));
+
+var _StarThreePointsOutline = _interopRequireDefault(require("./StarThreePointsOutline"));
 
 var _StarThreePoints = _interopRequireDefault(require("./StarThreePoints"));
 
 var _Star = _interopRequireDefault(require("./Star"));
 
+var _SteamBox = _interopRequireDefault(require("./SteamBox"));
+
 var _Steam = _interopRequireDefault(require("./Steam"));
 
 var _SteeringOff = _interopRequireDefault(require("./SteeringOff"));
-
-var _SteamBox = _interopRequireDefault(require("./SteamBox"));
 
 var _Steering = _interopRequireDefault(require("./Steering"));
 
@@ -30190,9 +30190,9 @@ var _TableEdit = _interopRequireDefault(require("./TableEdit"));
 
 var _TableLarge = _interopRequireDefault(require("./TableLarge"));
 
-var _TableMergeCells = _interopRequireDefault(require("./TableMergeCells"));
-
 var _TableOfContents = _interopRequireDefault(require("./TableOfContents"));
+
+var _TableMergeCells = _interopRequireDefault(require("./TableMergeCells"));
 
 var _TablePlus = _interopRequireDefault(require("./TablePlus"));
 
@@ -30210,9 +30210,9 @@ var _TableRow = _interopRequireDefault(require("./TableRow"));
 
 var _TableSearch = _interopRequireDefault(require("./TableSearch"));
 
-var _TableSettings = _interopRequireDefault(require("./TableSettings"));
-
 var _TableTennis = _interopRequireDefault(require("./TableTennis"));
+
+var _TableSettings = _interopRequireDefault(require("./TableSettings"));
 
 var _Table = _interopRequireDefault(require("./Table"));
 
@@ -30416,9 +30416,9 @@ var _ToolboxOutline = _interopRequireDefault(require("./ToolboxOutline"));
 
 var _Toolbox = _interopRequireDefault(require("./Toolbox"));
 
-var _TooltipAccount = _interopRequireDefault(require("./TooltipAccount"));
-
 var _TooltipEdit = _interopRequireDefault(require("./TooltipEdit"));
+
+var _TooltipAccount = _interopRequireDefault(require("./TooltipAccount"));
 
 var _TooltipImageOutline = _interopRequireDefault(require("./TooltipImageOutline"));
 
@@ -30452,9 +30452,9 @@ var _TowerFire = _interopRequireDefault(require("./TowerFire"));
 
 var _Towing = _interopRequireDefault(require("./Towing"));
 
-var _TrackLight = _interopRequireDefault(require("./TrackLight"));
-
 var _TrackpadLock = _interopRequireDefault(require("./TrackpadLock"));
+
+var _TrackLight = _interopRequireDefault(require("./TrackLight"));
 
 var _Trackpad = _interopRequireDefault(require("./Trackpad"));
 
@@ -30488,13 +30488,13 @@ var _TransitConnectionVariant = _interopRequireDefault(require("./TransitConnect
 
 var _TransitConnection = _interopRequireDefault(require("./TransitConnection"));
 
-var _TransitTransfer = _interopRequireDefault(require("./TransitTransfer"));
-
 var _TransitionMasked = _interopRequireDefault(require("./TransitionMasked"));
 
-var _Transition = _interopRequireDefault(require("./Transition"));
+var _TransitTransfer = _interopRequireDefault(require("./TransitTransfer"));
 
 var _TranslateOff = _interopRequireDefault(require("./TranslateOff"));
+
+var _Transition = _interopRequireDefault(require("./Transition"));
 
 var _Translate = _interopRequireDefault(require("./Translate"));
 
@@ -30640,9 +30640,9 @@ var _Usb = _interopRequireDefault(require("./Usb"));
 
 var _VanPassenger = _interopRequireDefault(require("./VanPassenger"));
 
-var _Vanish = _interopRequireDefault(require("./Vanish"));
-
 var _VanUtility = _interopRequireDefault(require("./VanUtility"));
+
+var _Vanish = _interopRequireDefault(require("./Vanish"));
 
 var _Variable = _interopRequireDefault(require("./Variable"));
 
@@ -30684,9 +30684,9 @@ var _VectorRectangle = _interopRequireDefault(require("./VectorRectangle"));
 
 var _VectorSelection = _interopRequireDefault(require("./VectorSelection"));
 
-var _VectorSquare = _interopRequireDefault(require("./VectorSquare"));
-
 var _VectorTriangle = _interopRequireDefault(require("./VectorTriangle"));
+
+var _VectorSquare = _interopRequireDefault(require("./VectorSquare"));
 
 var _VectorUnion = _interopRequireDefault(require("./VectorUnion"));
 
@@ -30696,9 +30696,9 @@ var _Vhs = _interopRequireDefault(require("./Vhs"));
 
 var _VibrateOff = _interopRequireDefault(require("./VibrateOff"));
 
-var _Vibrate = _interopRequireDefault(require("./Vibrate"));
-
 var _Video3DVariant = _interopRequireDefault(require("./Video3DVariant"));
+
+var _Vibrate = _interopRequireDefault(require("./Vibrate"));
 
 var _Video3D = _interopRequireDefault(require("./Video3D"));
 
@@ -30714,9 +30714,9 @@ var _VideoInputComponent = _interopRequireDefault(require("./VideoInputComponent
 
 var _VideoInputHdmi = _interopRequireDefault(require("./VideoInputHdmi"));
 
-var _VideoInputSvideo = _interopRequireDefault(require("./VideoInputSvideo"));
-
 var _VideoMinus = _interopRequireDefault(require("./VideoMinus"));
+
+var _VideoInputSvideo = _interopRequireDefault(require("./VideoInputSvideo"));
 
 var _VideoOffOutline = _interopRequireDefault(require("./VideoOffOutline"));
 
@@ -30750,9 +30750,9 @@ var _ViewComfy = _interopRequireDefault(require("./ViewComfy"));
 
 var _ViewCompactOutline = _interopRequireDefault(require("./ViewCompactOutline"));
 
-var _ViewCompact = _interopRequireDefault(require("./ViewCompact"));
-
 var _ViewDashboardOutline = _interopRequireDefault(require("./ViewDashboardOutline"));
+
+var _ViewCompact = _interopRequireDefault(require("./ViewCompact"));
 
 var _ViewDashboardVariant = _interopRequireDefault(require("./ViewDashboardVariant"));
 
@@ -30786,9 +30786,9 @@ var _Vimeo = _interopRequireDefault(require("./Vimeo"));
 
 var _Violin = _interopRequireDefault(require("./Violin"));
 
-var _VirtualReality = _interopRequireDefault(require("./VirtualReality"));
-
 var _VisualStudioCode = _interopRequireDefault(require("./VisualStudioCode"));
+
+var _VirtualReality = _interopRequireDefault(require("./VirtualReality"));
 
 var _VisualStudio = _interopRequireDefault(require("./VisualStudio"));
 
@@ -30862,9 +30862,9 @@ var _WashingMachine = _interopRequireDefault(require("./WashingMachine"));
 
 var _WatchExportVariant = _interopRequireDefault(require("./WatchExportVariant"));
 
-var _WatchExport = _interopRequireDefault(require("./WatchExport"));
-
 var _WatchImportVariant = _interopRequireDefault(require("./WatchImportVariant"));
+
+var _WatchExport = _interopRequireDefault(require("./WatchExport"));
 
 var _WatchImport = _interopRequireDefault(require("./WatchImport"));
 
@@ -30982,15 +30982,15 @@ var _WhiteBalanceIncandescent = _interopRequireDefault(require("./WhiteBalanceIn
 
 var _WhiteBalanceIridescent = _interopRequireDefault(require("./WhiteBalanceIridescent"));
 
-var _WhiteBalanceSunny = _interopRequireDefault(require("./WhiteBalanceSunny"));
-
 var _Widgets = _interopRequireDefault(require("./Widgets"));
+
+var _WhiteBalanceSunny = _interopRequireDefault(require("./WhiteBalanceSunny"));
 
 var _WifiOff = _interopRequireDefault(require("./WifiOff"));
 
-var _WifiStrength1Alert = _interopRequireDefault(require("./WifiStrength1Alert"));
-
 var _WifiStar = _interopRequireDefault(require("./WifiStar"));
+
+var _WifiStrength1Alert = _interopRequireDefault(require("./WifiStrength1Alert"));
 
 var _WifiStrength1Lock = _interopRequireDefault(require("./WifiStrength1Lock"));
 
