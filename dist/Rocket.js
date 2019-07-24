@@ -1,45 +1,28 @@
-"use strict";
+import React from 'react'
+import styled from 'styled-components'
+import { space, color } from 'styled-system'
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports["default"] = void 0;
+const Svg = styled('svg')({ flex: 'none' }, space, color)
 
-var _react = _interopRequireDefault(require("react"));
+const RocketIcon = ({
+  size,
+  ...props
+}) => (
+  <Svg
+    {...props}
+    viewBox='0 0 24 24'
+    width={size}
+    height={size}
+    fill='currentcolor'
+  >
+    <path d='M2.81,14.12L5.64,11.29L8.17,10.79C11.39,6.41 17.55,4.22 19.78,4.22C19.78,6.45 17.59,12.61 13.21,15.83L12.71,18.36L9.88,21.19L9.17,17.66C7.76,17.66 7.76,17.66 7.05,16.95C6.34,16.24 6.34,16.24 6.34,14.83L2.81,14.12M5.64,16.95L7.05,18.36L4.39,21.03H2.97V19.61L5.64,16.95M4.22,15.54L5.46,15.71L3,18.16V16.74L4.22,15.54M8.29,18.54L8.46,19.78L7.26,21H5.84L8.29,18.54M13,9.5C12.17,9.5 11.5,10.17 11.5,11C11.5,11.83 12.17,12.5 13,12.5C13.83,12.5 14.5,11.83 14.5,11C14.5,10.17 13.83,9.5 13,9.5Z' />
+  </Svg>
+)
 
-var _styledComponents = _interopRequireDefault(require("styled-components"));
+RocketIcon.displayName = 'RocketIcon'
 
-var _styledSystem = require("styled-system");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-var Svg = (0, _styledComponents["default"])('svg')({
-  flex: 'none'
-}, _styledSystem.space, _styledSystem.color);
-
-var RocketIcon = function RocketIcon(_ref) {
-  var size = _ref.size,
-      props = _objectWithoutProperties(_ref, ["size"]);
-
-  return _react["default"].createElement(Svg, _extends({}, props, {
-    viewBox: "0 0 24 24",
-    width: size,
-    height: size,
-    fill: "currentcolor"
-  }), _react["default"].createElement("path", {
-    d: "M2.81,14.12L5.64,11.29L8.17,10.79C11.39,6.41 17.55,4.22 19.78,4.22C19.78,6.45 17.59,12.61 13.21,15.83L12.71,18.36L9.88,21.19L9.17,17.66C7.76,17.66 7.76,17.66 7.05,16.95C6.34,16.24 6.34,16.24 6.34,14.83L2.81,14.12M5.64,16.95L7.05,18.36L4.39,21.03H2.97V19.61L5.64,16.95M4.22,15.54L5.46,15.71L3,18.16V16.74L4.22,15.54M8.29,18.54L8.46,19.78L7.26,21H5.84L8.29,18.54M13,9.5C12.17,9.5 11.5,10.17 11.5,11C11.5,11.83 12.17,12.5 13,12.5C13.83,12.5 14.5,11.83 14.5,11C14.5,10.17 13.83,9.5 13,9.5Z"
-  }));
-};
-
-RocketIcon.displayName = 'RocketIcon';
 RocketIcon.defaultProps = {
   size: 24
-};
-var _default = RocketIcon;
-exports["default"] = _default;
+}
+
+export default RocketIcon

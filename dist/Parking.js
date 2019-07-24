@@ -1,45 +1,28 @@
-"use strict";
+import React from 'react'
+import styled from 'styled-components'
+import { space, color } from 'styled-system'
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports["default"] = void 0;
+const Svg = styled('svg')({ flex: 'none' }, space, color)
 
-var _react = _interopRequireDefault(require("react"));
+const ParkingIcon = ({
+  size,
+  ...props
+}) => (
+  <Svg
+    {...props}
+    viewBox='0 0 24 24'
+    width={size}
+    height={size}
+    fill='currentcolor'
+  >
+    <path d='M13.2,11H10V7H13.2C14.3,7 15.2,7.9 15.2,9C15.2,10.1 14.3,11 13.2,11M13,3H6V21H10V15H13C16.31,15 19,12.31 19,9C19,5.68 16.31,3 13,3Z' />
+  </Svg>
+)
 
-var _styledComponents = _interopRequireDefault(require("styled-components"));
+ParkingIcon.displayName = 'ParkingIcon'
 
-var _styledSystem = require("styled-system");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-var Svg = (0, _styledComponents["default"])('svg')({
-  flex: 'none'
-}, _styledSystem.space, _styledSystem.color);
-
-var ParkingIcon = function ParkingIcon(_ref) {
-  var size = _ref.size,
-      props = _objectWithoutProperties(_ref, ["size"]);
-
-  return _react["default"].createElement(Svg, _extends({}, props, {
-    viewBox: "0 0 24 24",
-    width: size,
-    height: size,
-    fill: "currentcolor"
-  }), _react["default"].createElement("path", {
-    d: "M13.2,11H10V7H13.2C14.3,7 15.2,7.9 15.2,9C15.2,10.1 14.3,11 13.2,11M13,3H6V21H10V15H13C16.31,15 19,12.31 19,9C19,5.68 16.31,3 13,3Z"
-  }));
-};
-
-ParkingIcon.displayName = 'ParkingIcon';
 ParkingIcon.defaultProps = {
   size: 24
-};
-var _default = ParkingIcon;
-exports["default"] = _default;
+}
+
+export default ParkingIcon

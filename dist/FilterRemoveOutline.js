@@ -1,45 +1,28 @@
-"use strict";
+import React from 'react'
+import styled from 'styled-components'
+import { space, color } from 'styled-system'
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports["default"] = void 0;
+const Svg = styled('svg')({ flex: 'none' }, space, color)
 
-var _react = _interopRequireDefault(require("react"));
+const FilterRemoveOutlineIcon = ({
+  size,
+  ...props
+}) => (
+  <Svg
+    {...props}
+    viewBox='0 0 24 24'
+    width={size}
+    height={size}
+    fill='currentcolor'
+  >
+    <path d='M14.73,20.83L17.58,18L14.73,15.17L16.15,13.76L19,16.57L21.8,13.76L23.22,15.17L20.41,18L23.22,20.83L21.8,22.24L19,19.4L16.15,22.24L14.73,20.83M13,19.88C13.04,20.18 12.94,20.5 12.71,20.71C12.32,21.1 11.69,21.1 11.3,20.71L7.29,16.7C7.06,16.47 6.96,16.16 7,15.87V10.75L2.21,4.62C1.87,4.19 1.95,3.56 2.38,3.22C2.57,3.08 2.78,3 3,3V3H17V3C17.22,3 17.43,3.08 17.62,3.22C18.05,3.56 18.13,4.19 17.79,4.62L13,10.75V19.88M5.04,5L9,10.06V15.58L11,17.58V10.05L14.96,5H5.04Z' />
+  </Svg>
+)
 
-var _styledComponents = _interopRequireDefault(require("styled-components"));
+FilterRemoveOutlineIcon.displayName = 'FilterRemoveOutlineIcon'
 
-var _styledSystem = require("styled-system");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-var Svg = (0, _styledComponents["default"])('svg')({
-  flex: 'none'
-}, _styledSystem.space, _styledSystem.color);
-
-var FilterRemoveOutlineIcon = function FilterRemoveOutlineIcon(_ref) {
-  var size = _ref.size,
-      props = _objectWithoutProperties(_ref, ["size"]);
-
-  return _react["default"].createElement(Svg, _extends({}, props, {
-    viewBox: "0 0 24 24",
-    width: size,
-    height: size,
-    fill: "currentcolor"
-  }), _react["default"].createElement("path", {
-    d: "M14.73,20.83L17.58,18L14.73,15.17L16.15,13.76L19,16.57L21.8,13.76L23.22,15.17L20.41,18L23.22,20.83L21.8,22.24L19,19.4L16.15,22.24L14.73,20.83M13,19.88C13.04,20.18 12.94,20.5 12.71,20.71C12.32,21.1 11.69,21.1 11.3,20.71L7.29,16.7C7.06,16.47 6.96,16.16 7,15.87V10.75L2.21,4.62C1.87,4.19 1.95,3.56 2.38,3.22C2.57,3.08 2.78,3 3,3V3H17V3C17.22,3 17.43,3.08 17.62,3.22C18.05,3.56 18.13,4.19 17.79,4.62L13,10.75V19.88M5.04,5L9,10.06V15.58L11,17.58V10.05L14.96,5H5.04Z"
-  }));
-};
-
-FilterRemoveOutlineIcon.displayName = 'FilterRemoveOutlineIcon';
 FilterRemoveOutlineIcon.defaultProps = {
   size: 24
-};
-var _default = FilterRemoveOutlineIcon;
-exports["default"] = _default;
+}
+
+export default FilterRemoveOutlineIcon

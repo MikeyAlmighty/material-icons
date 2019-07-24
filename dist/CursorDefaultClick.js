@@ -1,45 +1,28 @@
-"use strict";
+import React from 'react'
+import styled from 'styled-components'
+import { space, color } from 'styled-system'
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports["default"] = void 0;
+const Svg = styled('svg')({ flex: 'none' }, space, color)
 
-var _react = _interopRequireDefault(require("react"));
+const CursorDefaultClickIcon = ({
+  size,
+  ...props
+}) => (
+  <Svg
+    {...props}
+    viewBox='0 0 24 24'
+    width={size}
+    height={size}
+    fill='currentcolor'
+  >
+    <path d='M10.76,8.69C10.34,8.69 10,9.03 10,9.45V20.9C10,21.32 10.34,21.66 10.76,21.66C10.95,21.66 11.11,21.6 11.24,21.5L13.15,19.95L14.81,23.57C14.94,23.84 15.21,24 15.5,24C15.61,24 15.72,24 15.83,23.92L18.59,22.64C18.97,22.46 19.15,22 18.95,21.63L17.28,18L19.69,17.55C19.85,17.5 20,17.43 20.12,17.29C20.39,16.97 20.35,16.5 20,16.21L11.26,8.86L11.25,8.87C11.12,8.76 10.95,8.69 10.76,8.69M15,10V8H20V10H15M13.83,4.76L16.66,1.93L18.07,3.34L15.24,6.17L13.83,4.76M10,0H12V5H10V0M3.93,14.66L6.76,11.83L8.17,13.24L5.34,16.07L3.93,14.66M3.93,3.34L5.34,1.93L8.17,4.76L6.76,6.17L3.93,3.34M7,10H2V8H7V10' />
+  </Svg>
+)
 
-var _styledComponents = _interopRequireDefault(require("styled-components"));
+CursorDefaultClickIcon.displayName = 'CursorDefaultClickIcon'
 
-var _styledSystem = require("styled-system");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-var Svg = (0, _styledComponents["default"])('svg')({
-  flex: 'none'
-}, _styledSystem.space, _styledSystem.color);
-
-var CursorDefaultClickIcon = function CursorDefaultClickIcon(_ref) {
-  var size = _ref.size,
-      props = _objectWithoutProperties(_ref, ["size"]);
-
-  return _react["default"].createElement(Svg, _extends({}, props, {
-    viewBox: "0 0 24 24",
-    width: size,
-    height: size,
-    fill: "currentcolor"
-  }), _react["default"].createElement("path", {
-    d: "M10.76,8.69C10.34,8.69 10,9.03 10,9.45V20.9C10,21.32 10.34,21.66 10.76,21.66C10.95,21.66 11.11,21.6 11.24,21.5L13.15,19.95L14.81,23.57C14.94,23.84 15.21,24 15.5,24C15.61,24 15.72,24 15.83,23.92L18.59,22.64C18.97,22.46 19.15,22 18.95,21.63L17.28,18L19.69,17.55C19.85,17.5 20,17.43 20.12,17.29C20.39,16.97 20.35,16.5 20,16.21L11.26,8.86L11.25,8.87C11.12,8.76 10.95,8.69 10.76,8.69M15,10V8H20V10H15M13.83,4.76L16.66,1.93L18.07,3.34L15.24,6.17L13.83,4.76M10,0H12V5H10V0M3.93,14.66L6.76,11.83L8.17,13.24L5.34,16.07L3.93,14.66M3.93,3.34L5.34,1.93L8.17,4.76L6.76,6.17L3.93,3.34M7,10H2V8H7V10"
-  }));
-};
-
-CursorDefaultClickIcon.displayName = 'CursorDefaultClickIcon';
 CursorDefaultClickIcon.defaultProps = {
   size: 24
-};
-var _default = CursorDefaultClickIcon;
-exports["default"] = _default;
+}
+
+export default CursorDefaultClickIcon

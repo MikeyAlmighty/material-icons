@@ -2,7 +2,7 @@ import React from 'react';
 
 import { storiesOf } from '@storybook/react';
 
-import {Bomb} from '../src'
+import {Bomb} from '../dist'
 
 storiesOf('Icon', module)
   .add('Bomb', () => <Bomb color="tomato" size="100px"/>)

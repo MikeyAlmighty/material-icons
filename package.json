@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Material Icon SVGs as React Components",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "repository": "https://github.com/lessondesk/material-icons.git",
   "author": "Full Facing",
   "contributors": [
@@ -10,7 +11,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "pixo svg && babel src --out-dir dist",
+    "build": "pixo svg",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -30,7 +31,7 @@
     "material"
   ],
   "pixo": {
-    "outDir": "src",
+    "outDir": "dist",
     "template": "styledSystem",
     "index": true,
     "iconComponent": true,
