@@ -12,7 +12,8 @@
   "scripts": {
     "build": "pixo svg && babel src --out-dir dist",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "preview": "serve -p 6757 docs"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -22,7 +23,10 @@
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
     "babel-loader": "^8.0.6",
-    "pixo": "^1.1.2"
+    "pixo": "^1.1.2",
+    "serve": "^11.1.0",
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.1.2"
   },
   "keywords": [
     "svg",
