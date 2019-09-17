@@ -1,10 +1,8 @@
 const content = document.querySelector('#content')
 const search = document.querySelector('.js-search')
-const backToTop = document.querySelector('.js-back-to-top')
 
 renderIcons(window.icons)
 
-backToTop.addEventListener('click')
 search.addEventListener('keyup', (e) => {
   if (e.keyCode === 13) {
     const { value } = search
@@ -41,8 +39,10 @@ function renderIcons(icons) {
 
 function handleOnClick(e) {
   const title = e.target
-  if (title) {
-    copyElementText(title.innerText)
+  const text = title && title.innerText
+  if (text) {
+    copyElementText()
+    window.toast(`Copied ${text} to clipboard.`)
   }
 }
 
@@ -53,8 +53,4 @@ function copyElementText(text) {
     elem.select();
     document.execCommand("copy");
     document.body.removeChild(elem);
-}
-
-function handleBackToTop() {
-  window.scrollTo(0, 0)
 }
