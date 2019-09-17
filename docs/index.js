@@ -41,7 +41,7 @@ function handleOnClick(e) {
   const title = e.target
   const text = title && title.innerText
   if (text) {
-    copyElementText()
+    copyElementText(text)
     window.toast(`Copied ${text} to clipboard.`)
   }
 }
