@@ -1,5 +1,6 @@
 const content = document.querySelector('#content')
 const search = document.querySelector('.js-search')
+const iconNames = window.icons.map(({ iconName }) => iconName)
 
 renderIcons(window.icons)
 
@@ -42,7 +43,7 @@ function handleOnClick(e) {
   const text = title && title.innerText
   if (text) {
     copyElementText(text)
-    window.toast(`Copied ${text} to clipboard.`)
+    window.toasty(`Copied ${text} to clipboard.`)
   }
 }
 
