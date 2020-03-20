@@ -23,7 +23,8 @@
 ## Usage
 
 ```js
-import { Account, Bomb } from '@lessondesk/material-icons'
+import Bomb from '@lessondesk/material-icons/dist/Bomb'
+import Account from '@lessondesk/material-icons/dist/Account'
 
 const Example = (props) => <div>
     <Bomb size="100px" color="tomato"/>

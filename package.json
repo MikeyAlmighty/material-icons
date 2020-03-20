@@ -1,6 +1,6 @@
 {
   "name": "@lessondesk/material-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Material Icon SVGs as React Components",
   "main": "dist/index.js",
   "repository": "https://github.com/lessondesk/material-icons.git",
@@ -16,17 +16,17 @@
     "preview": "serve -p 6757 docs"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "@storybook/addons": "^5.1.9",
-    "@storybook/react": "^5.1.9",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/react": "^5.3.17",
     "babel-loader": "^8.0.6",
     "pixo": "^1.1.2",
-    "serve": "^11.1.0",
-    "styled-components": "^4.3.2",
-    "styled-system": "^5.1.2"
+    "serve": "^11.3.0",
+    "styled-components": "^4.4.1",
+    "styled-system": "^5.1.5"
   },
   "keywords": [
     "svg",
